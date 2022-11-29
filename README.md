@@ -28,7 +28,7 @@ The minimax algorithm then performs a depth-first search algorithm for the explo
 
 ## Tkinter
 
-Tkinter contains many Widgets that provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called widgets.
+Tkinter provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called Widgets.
 
 ## Dependencies 
 
@@ -56,6 +56,8 @@ Provide a step-by-step description of how to get the development environment set
 [Readme](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ )
 
 [Minimax](https://www.javatpoint.com/mini-max-algorithm-in-ai)
+
+[Tkinker](https://www.tutorialspoint.com/python/python_gui_programming.htm#:~:text=Tkinter%20provides%20various%20controls%2C%20such,controls%20are%20commonly%20called%20widgets.&text=Sr.No.&text=The%20Button%20widget%20is%20used%20to%20display%20buttons%20in%20your%20application.)
 
 # Badges
 
