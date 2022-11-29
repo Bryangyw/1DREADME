@@ -28,6 +28,8 @@ The minimax algorithm then performs a depth-first search algorithm for the explo
 
 ## Tkinter
 
+Tkinter contains many Widgets that provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called widgets.
+
 ## Dependencies 
 
 LIbraries Used
