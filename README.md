@@ -11,6 +11,8 @@ Some of the challenges you faced and features you hope to implement in the futur
 
 # Table Of Contents
 
+# What the Minimax Algorithm does
+
 # How to Run the Project
 
 Provide a step-by-step description of how to get the development environment set and running.
