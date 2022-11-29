@@ -51,6 +51,7 @@ Provide a step-by-step description of how to get the development environment set
 1006910 Edison Ang
 
 Minimax:
+
 https://www.javatpoint.com/mini-max-algorithm-in-ai 
 
 # Badges
