@@ -4,15 +4,21 @@
 
 # Project Description
 
-What your application does
+What our Project does
 
-Why you used the technologies you used
+What the Program aims to solve
 
-What the program aims to solve
+Why we used the technologies we did
 
-Some of the challenges you faced and features you hope to implement in the future
+Some of the challenges we faced and features we hope to implement in the future
 
 # Table Of Contents
+
+# Things we used in our Program
+
+Minimax Algorithm
+
+Tkinter
 
 # What the Minimax Algorithm does
 
