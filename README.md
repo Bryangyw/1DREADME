@@ -51,13 +51,9 @@ Provide a step-by-step description of how to get the development environment set
 1006910 Edison Ang
 
 
-Readme:
+[Readme](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ )
 
-https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/ 
-
-Minimax:
-
-https://www.javatpoint.com/mini-max-algorithm-in-ai 
+[Minimax](https://www.javatpoint.com/mini-max-algorithm-in-ai)
 
 # Badges
 
