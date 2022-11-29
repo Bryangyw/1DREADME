@@ -16,9 +16,14 @@ Some of the challenges we faced and features we hope to implement in the future
 
 # Things we used in our Program
 
-Minimax Algorithm
+## Minimax Algorithm
 
-Tkinter
+## Tkinter
+
+## Dependencies 
+
+LIbraries Used
+
 
 # What the Minimax Algorithm does
 
