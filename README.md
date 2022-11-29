@@ -21,11 +21,11 @@ Provide a step-by-step description of how to get the development environment set
 
 # Credits
 
-1005790 Bryan Goh Yew Weng
-1006910 Edison Ang
 1003608 Izzah Sarah Binte Omer Ali Saifedeen
+1005790 Bryan Goh Yew Weng
 1006858 Lim Kay Yuen Darryl
 1006869 Teo Zheo Joshua
+1006910 Edison Ang
 
 # Badges
 
