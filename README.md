@@ -5,6 +5,7 @@
 # Project Description
 
 What our Project does
+This game is aimed at
 
 What the Program aims to solve
 
@@ -28,7 +29,7 @@ The minimax algorithm then performs a depth-first search algorithm for the explo
 
 ## Tkinter
 
-Tkinter provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called Widgets.
+Tkinter is a Python package that provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called Widgets.
 
 ## Dependencies 
 
