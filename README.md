@@ -31,7 +31,7 @@ The minimax algorithm then performs a depth-first search algorithm for the explo
 
 Tkinter is a Python package that provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called Widgets.
 
-For the game, the Tkinter programme takes in a list of 9 strings, which are either 'X's','O's' or an empty string ("") and display them sequentially in a Tic-Tac-Toe grid.
+For the game, the Tkinter programme takes in a list of 9 strings. The strings are either 'X's','O's' or an empty string (""). All strings are then displayed sequentially in a Tic-Tac-Toe grid.
 
 ## Dependencies 
 
