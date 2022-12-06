@@ -39,9 +39,8 @@ All the functions in the display module (except funcClearContainer and funcFirst
 - Other inputs specific to the functions as detailed below
 
 #### Functions
-1) funcFirstDiffIndex
-This takes in two lists of equal length and returns the index of the first item between both lists that difer. It is used exclusively by funcGenBoard to identify where the next position is.
-2) funcGenBoard
+1) funcFirstDiffIndex: This takes in two lists of equal length and returns the index of the first item between both lists that difer. It is used exclusively by funcGenBoard to identify where the next position is.
+2) funcGenBoard: 
 
 ## Tkinter
 
