@@ -15,37 +15,45 @@ def generatePos(game, letter):
 def setNextMove(player):
     pass
 
-def funcGenBoard(root, style, dictState):
+#function identifying the first differing index between 2 lists of equal length
+def funcFirstDiffIndex(lsOne, lsTwo):
+    for i in range(len(lsOne)):
+        if lsOne[i] != lsTwo[i]:
+            return str(i)
+    return str(-1)
+
+#function generating future boards along with the associated minimax score
+def funcGenBoard(root, style, dictState, lsCurrent):
     frameState = Frame(root, style = style['Frame'])
     frameBoard = Frame(frameState, padding = 5, style = style['Frame'])
     lsButtonStore = []
     for item in dictState['position']:
         lsButtonStore.append(Button(frameBoard, width = 2, text = item, style = style['Button']))
+    #button position assignment
     num = 0
     for i in range(3):
         for j in range(3):
             lsButtonStore[num].grid(row = i, column = j)
             num += 1
+    #identify new position to retrieve 
+    strNext = funcFirstDiffIndex(dictState['position'], lsCurrent) 
     frameBoard.grid(row = 0, column = 0)
-    Label(frameState, text = dictState['score'], width = 2, style = style['Label'], padding = 3).grid(row = 0, column = 1)
+    Label(frameState, text = 'P:' + strNext + '\n'+ str(dictState['score']), width = 3, style = style['Label'], padding = 3).grid(row = 0, column = 1)
     return frameState
-
-def funcBoardFrames(root, style, lsStates):
-    frameDisplay = Frame(root, height = 600, width = 250)
-    #frameDisplay.grid_propagate(0)
-    #Scrollbar(frameDisplay, cursor = 'heart', orient = constants.VERTICAL).grid(row = 0, column = 1, rowspan = 3)
+ 
+#function generating the right panel of possible next moves
+def funcBoardFrames(root, style, lsStates, lsCurrent):
+    frameDisplay = Frame(root)
     i = 0
     j = 0
-    for dictState in lsStates:
+    for dictState in lsStates: #placing each possible future board in columns of 4
         if i < 4:
             i += 1
-            funcGenBoard(frameDisplay, style, dictState).grid(row = i, column = j)
-            #print(i,j,1)
+            funcGenBoard(frameDisplay, style, dictState, lsCurrent).grid(row = i, column = j)
         else:
             i = 1
             j += 1
-            funcGenBoard(frameDisplay, style, dictState).grid(row = i, column = j)
-            #print(i,j,2)
+            funcGenBoard(frameDisplay, style, dictState, lsCurrent).grid(row = i, column = j)
     Label(frameDisplay, text = 'Possible Moves', style = style['Label']).grid(row = 0, column = 0, columnspan = j+1)
     return frameDisplay
 

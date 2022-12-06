@@ -150,7 +150,7 @@ def play(game,x_player,o_player,print_game=True):
             #print("O's possible moves and scores:")
         
         funcClearContainer(tkWindow)
-        funcBoardFrames(tkWindow,style,state_list).grid(row = 0, column = 1)
+        funcBoardFrames(tkWindow,style,state_list,game.board).grid(row = 0, column = 1)
         #funcMainBoard(tkWindow,style,game.board).grid(row = 0, column = 0)
         tkWindow.update_idletasks()
         #print(state_list)
@@ -188,7 +188,7 @@ if __name__ == '__main__':
     x_player = HumanPlayer('X')
     o_player = HumanPlayer('O')
     t=TicTacToe()
-    funcBoardFrames(tkWindow,style,a).grid(row = 0, column = 1)
+    funcBoardFrames(tkWindow,style,a,t.board).grid(row = 0, column = 1)
     funcMainBoard(tkWindow,style,a[0]['position'],x_player).grid(row = 0, column = 0)
     play(t, x_player,o_player,print_game=True)
 
