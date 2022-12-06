@@ -27,11 +27,17 @@ For this algorithm, two players play the game, one is called MAX and other is ca
 
 The minimax algorithm then performs a depth-first search algorithm for the exploration of the complete game tree and proceeds all the way down to the terminal node of the tree, then backtrack the tree as the recursion.
 
+## Display Module
+
+This module generates UI elements displayed on the GUI using the ttk widgets provided by Tk. The two main elements are;
+1) current position of the tic-tac-toe game which displays of the left
+2) the list of possible future states on the right.
+
 ## Tkinter
 
 Tkinter is a Python package that provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called Widgets.
 
-For the game, the Tkinter programme takes in a list of 9 strings. The strings are either 'X's','O's' or an empty string (""). All strings are then displayed sequentially in a Tic-Tac-Toe grid.
+For the game, the Tkinter programme takes in a list of 9 strings. The strings are either 'X's','O's' or an empty string (""). All strings are then displayed sequentially in a tic-tac-toe grid.
 
 ## Dependencies 
 
