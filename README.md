@@ -34,12 +34,14 @@ This module generates UI elements displayed on the GUI using the ttk widgets pro
 ### How it Works
 
 All the functions in the display module (except funcClearContainer and funcFirstDiffIndex) take the following inputs;
-1) A root, the ttk container that the frame is to be generated in
-2) A style dictionary defining the appearance of the ttk widgets
-3) Other inputs specific to the functions as detailed below
+- A root, the ttk container that the frame is to be generated in
+- A style dictionary defining the appearance of the ttk widgets
+- Other inputs specific to the functions as detailed below
 
 #### Functions
-
+1) funcFirstDiffIndex
+This takes in two lists of equal length and returns the index of the first item between both lists that difer. It is used exclusively by funcGenBoard to identify where the next position is.
+2) funcGenBoard
 
 ## Tkinter
 
