@@ -1,7 +1,7 @@
 # Minimax visualizer
 A minimax score visualization tool on the game of TicTacToe.
 
-# Problem Statement
+## Problem Statement
 
 
 ## Running Locally
