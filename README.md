@@ -49,7 +49,7 @@ For the game, the Tkinter programme takes in a list of 9 strings. The strings ar
 
 ## Dependencies 
 
-LIbraries Used
+Libraries Used
 
 # How to Run the Project
 
