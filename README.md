@@ -29,7 +29,7 @@ The minimax algorithm then performs a depth-first search algorithm for the explo
 
 ## Display Module
 
-This module generates UI elements displayed on the GUI using the ttk widgets provided by Tk. The two main elements are the current position of the tic-tac-toe game which displays of the left and the list of possible future states on the right
+This module generates UI elements displayed on the GUI using the ttk widgets provided by Tk. The two main elements are the current position of the tic-tac-toe game which displays of the left and the list of possible future states on the right.
 
 ### How it Works
 
@@ -37,6 +37,9 @@ All the functions in the display module (except funcClearContainer and funcFirst
 1) A root, the ttk container that the frame is to be generated in
 2) A style dictionary defining the appearance of the ttk widgets
 3) Other inputs specific to the functions as detailed below
+
+#### Functions
+
 
 ## Tkinter
 
