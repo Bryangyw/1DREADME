@@ -31,7 +31,7 @@ The minimax algorithm then performs a depth-first search algorithm for the explo
 
 This module generates UI elements displayed on the GUI using the ttk widgets provided by Tk. The two main elements are;
 1) current position of the tic-tac-toe game which displays of the left
-2) the list of possible future states on the right.
+2) the list of possible future states on the right
 
 ## Tkinter
 
@@ -51,7 +51,7 @@ Provide a step-by-step description of how to get the development environment set
 
 # Credits
 
-1003608 Izzah Sarah Binte Omer Ali Saifedeen
+1003608 Izzah Sarah Binte Omer Ali Saifudeen
 
 1005790 Bryan Goh Yew Weng
 
