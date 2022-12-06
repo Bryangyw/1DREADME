@@ -29,9 +29,7 @@ The minimax algorithm then performs a depth-first search algorithm for the explo
 
 ## Display Module
 
-This module generates UI elements displayed on the GUI using the ttk widgets provided by Tk. The two main elements are;
-1) Current position of the tic-tac-toe game which displays of the left
-2) List of possible future states on the right
+This module generates UI elements displayed on the GUI using the ttk widgets provided by Tk. The two main elements are the current position of the tic-tac-toe game which displays of the left and the list of possible future states on the right
 
 ### How it Works
 
