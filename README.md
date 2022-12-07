@@ -2,7 +2,7 @@
 A minimax score visualization tool on the game of TicTacToe.
 
 ## Problem Statement
-
+This TicTacToe game is aimed at pairs or individuals to play with the computer, all who need to learn optimal strategy be it with a friend or by themselves. A software that tests user(s) their understanding of predictability and problem-solving could enhance their cognitive abilities all within the comfort alone or with a partner. If with a partner, a better conception of the partner is formed after seeing what strategy the other person uses in the game. 
 
 ## Running Locally
 ### TicTacToe
