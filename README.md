@@ -3,7 +3,8 @@
 
 **Description of the game:** In this version of TicTacToe, players take turns clicking the spaces in a three-by-three grid with 'X' or 'O'. The player who succeeds in placing three of their chosen marks in a horizontal, vertical, or diagonal row is the winner.
 
-# Minimax visualizer
+# Documentation
+## Minimax visualizer
 It is required for this game to use the minimax score visualization tool for TicTacToe.
 
 ## Running Locally
