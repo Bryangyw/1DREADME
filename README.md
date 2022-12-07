@@ -2,9 +2,9 @@
 A minimax score visualization tool on the game of TicTacToe
 
 ## Problem Statement
-**Context**: This TicTacToe game is aimed at pairs to be a visualisation aid that illustrates how minimax algoritm works. Algorithms are usually unintuitive and difficult to grasp. Many people are taught decision trees but are not sure the scores lead to an AI playing the best possible move each time. Hence, this programme calculates the score for all possible next moves and scores them accordingly. The user can observe how a minimax algorithm scores the possible moves
+**Context**: This version of the TicTacToe game is aimed to be a visualisation aid that illustrates how the minimax algorithm works. Algorithms are not as intuitive and easy to grasp especially for people newer to such processes. Many are taught decision trees but unsure how the scores lead to an AI playing the best possible move each time. Hence, this programme calculates the score for all possible next moves and scores them accordingly. The user can observe how a minimax algorithm scores the possible moves.
 
-**Description of the game:** In this version of TicTacToe, players take turns clicking the spaces in a three-by-three grid with 'X' or 'O'. As every move is made, a score is calculated by the Minimax Algorithm to visually show what is the best possible move the player can make to win.
+**Description of the game:** In this version of TicTacToe, players take turns clicking the spaces in a three-by-three grid with 'X' or 'O'. As every move is made, a score is calculated by the Minimax Algorithm to visually show what is the best possible move the player can make next to win the game.
 
 ## Running Locally
 ### TicTacToe
@@ -17,7 +17,7 @@ A minimax score visualization tool on the game of TicTacToe
 
 ## Minimax Algorithm
 
-The Minimax algorithm is a recursive or backtracking algorithm which is used in decision-making and game theory. It provides an optimal move for the player assuming that opponent is also playing optimally. It uses recursion to search through the game-tree. It computes the minimax decision for the current state.
+The Minimax algorithm is a recursive or backtracking algorithm which is used in decision-making and game theory. It provides an optimal move for the player assuming that the opponent is also playing optimally. It uses recursion to search through the game tree and computes the minimax decision for the current state.
 
 ### How it Works
 One player is the maximising player and the other is the minimising player. Every turn, the maximising player chooses the move with the highest score, while the minimising player chooses the move with the lower score. 
