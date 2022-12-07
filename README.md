@@ -2,7 +2,7 @@
 A Minimax score visualization tool on the game of TicTacToe
 
 ## Problem Statement
-**Context**: This version of the TicTacToe game is aimed to be a visualisation aid that illustrates how the minimax algorithm works. Algorithms are not as intuitive or easy to grasp especially for people newer to such processes. Many are taught about decision trees but unsure how this helps lead an AI to play the best possible move each time. Hence, this programme calculates the score for all subsequent moves and scores them accordingly. The user can then observe how a minimax algorithm scores the possible moves.
+**Context**: This version of the TicTacToe game is aimed to be a visualisation aid that illustrates how the minimax algorithm works. Algorithms are not as intuitive or easy to grasp especially for people newer to such processes. Many are taught about decision trees but unsure how this helps lead an AI to play the best possible move each time. Hence, this programme calculates the score for all subsequent moves and shows the scores accordingly. The user can then observe how a minimax algorithm scores the possible moves and make the next best possible move.
 
 **Description of the game:** In this version of TicTacToe, players take turns clicking the spaces in a three-by-three grid with 'X' or 'O'. As every move is made, a score is calculated by the Minimax Algorithm to visually show what is the best possible move the player can make next to win the game.
 
