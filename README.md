@@ -4,6 +4,8 @@ A minimax score visualization tool on the game of TicTacToe.
 ## Problem Statement
 This TicTacToe game is aimed at pairs or individuals to play with the computer, all who need to learn optimal strategy be it with a friend or by themselves. A software that tests user(s) their understanding of predictability and problem-solving could enhance their cognitive abilities all within the comfort alone or with a partner. If with a partner, a better conception of the partner is formed after seeing what strategy the other person uses in the game. 
 
+In TicTacToe, player(s) take turns marking the spaces in a three-by-three grid with 'X' or 'O'. The player who succeeds in placing three of their chosen marks in a horizontal, vertical, or diagonal row is the winner. For our code
+
 ## Running Locally
 ### TicTacToe
 1. Clone this repo into a local directory and navigate to the directory.
