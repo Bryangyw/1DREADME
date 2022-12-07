@@ -1,5 +1,5 @@
 # Minimax visualizer
-It is required for this game to use the minimax score visualization tool for TicTacToe.
+The minimax score visualization tool for TicTacToe
 
 ## Problem Statement
 **Context**: This TicTacToe game is aimed at pairs, all who need to learn optimal strategy. A software that tests users their understanding of predictability and problem-solving could enhance their cognitive abilities. If with a partner, a better conception of the other player is formed after seeing what strategy the other person uses in the game. 
