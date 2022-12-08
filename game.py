@@ -6,6 +6,9 @@ from tkinter import font, Tk, constants, Canvas, IntVar
 from tkinter.ttk import *
 from display import *
 
+# Our visualization tool of the minimax algorithm through a game of Tic Tac Toe
+#  is an extension of the CLI Tic Tac Toe game found here: https://www.youtube.com/watch?v=8ext9G7xspg
+
 class TicTacToe:
     def __init__(self):
         self.board = [' ' for _ in range(9)] # List of 9 variables to create 3x3 board
@@ -76,42 +79,10 @@ def play(game,x_player,o_player,print_game=True):
     while game.empty_squares():
         # Get the move from the correct player
         if letter == 'O':
-            ### Print possible next moves at the start
-            #_,state_list = o_player.minimax(game,letter)
-            #print("O's possible moves and scores:")
-            #print(state_list)
-            
             funcMainBoard(tkWindow,style,game.board,o_player).grid(row = 0, column = 0)
-            # ----EXPERIMENTAL CODE----
-            #buttonNotPressed = True
-            #while buttonNotPressed:
-            #    tkWindow.update()
-            #    if o_player.nextMove != IntVar: buttonNotPressed = False
-            # ----EXPERIMENTAL CODE----
-
-            #tkWindow.update()
-            #o_player.nextMove = IntVar()
-
-
             square = o_player.get_move(game)
         else:
-            ### Print possible next moves at the start
-            #_,state_list = x_player.minimax(game,letter)
-            #print("X's possible moves and scores:")
-            #print(state_list)
-
-
             funcMainBoard(tkWindow,style,game.board,x_player).grid(row = 0, column = 0)
-
-            # ----EXPERIMENTAL CODE----
-            #buttonNotPressed = True
-            #while buttonNotPressed:
-            #    tkWindow.update()
-            #    if o_player.nextMove != IntVar: buttonNotPressed = False
-            # ----EXPERIMENTAL CODE----
-
-            #tkWindow.update()
-            #x_player.nextMove = IntVar()
             square = x_player.get_move(game)
         
         # function to make a move
@@ -125,9 +96,8 @@ def play(game,x_player,o_player,print_game=True):
         if game.current_winner:
             if print_game:
                 print(letter + ' wins!')
-                #CHANGE 'x_player' argument -- it is not always x_player who wins
                 funcMainBoard(tkWindow,style,game.board,x_player).grid(row = 0, column = 0)
-                funcVictoryLabel(tkWindow,style,letter)
+                funcVictoryLabel(tkWindow,style,letter).grid(row = 1, column = 0)
                 tkWindow.update_idletasks()
             return letter
         
@@ -138,22 +108,17 @@ def play(game,x_player,o_player,print_game=True):
                 temp = game.board[:]
                 temp[state['position']] = 'X'
                 state['position'] = temp
-            
-            #print("X's possible moves and scores:")
+
         else:
             _,state_list = o_player.minimax(game,"O")
             for state in state_list:
                 temp = game.board[:]
                 temp[state['position']] = 'O'
                 state['position'] = temp
-
-            #print("O's possible moves and scores:")
         
         funcClearContainer(tkWindow)
-        funcBoardFrames(tkWindow,style,state_list,game.board).grid(row = 0, column = 1)
-        #funcMainBoard(tkWindow,style,game.board).grid(row = 0, column = 0)
+        funcBoardFrames(tkWindow,style,state_list,game.board).grid(row = 0, column = 1, columnspan = 2)
         tkWindow.update_idletasks()
-        #print(state_list)
 
         # alternate player
         letter = 'O' if letter == 'X' else 'X'
@@ -189,9 +154,7 @@ if __name__ == '__main__':
     o_player = HumanPlayer('O')
     t=TicTacToe()
     funcBoardFrames(tkWindow,style,a,t.board).grid(row = 0, column = 1)
-    funcMainBoard(tkWindow,style,a[0]['position'],x_player).grid(row = 0, column = 0)
+    funcMainBoard(tkWindow,style,a[0]['position'],x_player).grid(row = 0, column = 0, columnspan = 1)
     play(t, x_player,o_player,print_game=True)
 
     tkWindow.mainloop()
-
-
